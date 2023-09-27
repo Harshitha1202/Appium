@@ -14,7 +14,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 import net.bytebuddy.dynamic.scaffold.MethodRegistry.Handler.ForAbstractMethod;
 
-public class test1 
+public class excelData 
 {
 	public static void main(String[] args) throws EncryptedDocumentException, IOException 
 	{
@@ -34,8 +34,6 @@ public class test1
 		for (Entry<String, String> e : map.entrySet()) 
 		{
 			System.out.println(e.getKey()+":"+e.getValue());
-
 		}
 	}
-
 }
